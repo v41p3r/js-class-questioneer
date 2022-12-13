@@ -12,7 +12,7 @@ function showRandom() {
 
     const question = questions[getRandomInt(0, questions.length - 1)];
 
-    questions.splice(questions.indexOf(el => el.id === question.id), 1);
+    questions.splice(questions.indexOf(question), 1);
     console.log(questions.length);
 
     questionDiv.innerText = `${total - questions.length}/${total} - ${question.question}`;
