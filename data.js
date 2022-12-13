@@ -331,8 +331,8 @@ const questions = [
     {
         id: 4,
         question: `Какво е Polymorphism?`,
-        answer: `Eдин и същи обект или функция могат да бъдат в различен контекст `
-      example: Car: Audi & BMW
+        answer: `Eдин и същи обект или функция могат да бъдат в различен контекст `,
+        example: `Car: Audi & BMW`
     },
     {
         id: 5,
